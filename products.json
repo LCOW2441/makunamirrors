@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "name": "Elegant Mirror",
+        "price": 150.00,
+        "description": "A beautifully crafted mirror to add elegance to any room.",
+        "image": "img/elegant-mirror.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Modern Mirror",
+        "price": 200.00,
+        "description": "A sleek mirror with a modern design.",
+        "image": "img/modern-mirror.jpg"
+    }
+]

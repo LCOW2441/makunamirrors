@@ -1,0 +1,341 @@
+/* CSS Reset */
+body,header,nav, main, footer, img, h1, h2, h3, h4, p, em, a, ul, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* CSS for Header */
+header{
+    font-size: 30px;
+    display: flex;
+    background-color: #C1C3C9;
+    color: #293040;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px #293040;
+    text-align: center;
+    height: 170px;
+}
+
+header#media{
+    font-size: 30px;
+    display: flex;
+    background-color:rgb(116, 50, 51);
+    color: #293040;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px #293040;
+    text-align: left;
+}
+
+/* CSS for Headings */
+h1{
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 10px 0 0 50px;
+    border-left: 2px solid #293040;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h1#palakvyas{
+    font-size: 3em;
+    color:rgb(245, 240, 236);
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-left: none;
+    padding: 0;
+}
+
+h1#media{
+    font-size: 2em;
+    margin-top: 40px;
+    color: #C1C3C9;
+    margin-bottom: 0;
+    border-left: 2px solid #C1C3C9;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #C1C3C9;
+    margin-bottom: 0;
+    font-family: "Lustria", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2#media{
+    color: rgb(80, 49, 47);
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
+    font-size: 2em;
+    margin-top: 0;
+    color: rgb(80, 49, 47);
+}
+
+h3#slogan{
+    padding: 0 0 10px 100px;
+    margin: 10px;
+    margin-top: 0;
+    border-left: 2px solid #293040;
+    text-align: right;
+    width: 100%;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+}
+
+h4{
+    margin-top: 0;
+    font-size: 0.75em;
+}
+
+#aboutus, #team, #contact, #faqs, #specials, #training{
+    font-size: 2em;
+    color: #293040;
+    margin-top: 40px;
+}
+
+/* CSS for Nav Bar */
+nav{
+    margin: 30px;
+    padding: 0;
+    border: 1.5px solid #8F7049;
+}
+
+div#nav{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li{
+    display:inline-block;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+nav li a{
+    color: #8F7049;
+    text-decoration: none;
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav li a:hover{
+    color: #293040;
+}
+
+/* CSS for Body */
+body{
+    background-color: #DEE0E4;
+}
+
+/* CSS for Main */
+main{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #000;
+    box-shadow: 5px 5px #C1C3C9;
+}
+
+main#media{
+    background-color: rgb(219, 204, 181);
+}
+
+main#media p, main#media h2{
+    color: rgb(80, 49, 47);
+}
+
+/* CSS for Images */
+img#logo{
+    padding:10px;
+    margin: 10px 20px;
+    height: 130px;
+    width: 200px
+}
+
+img#icon{
+    padding-left: 20px;
+    height: 85px;
+    width: 85px;
+}
+
+img#banner{
+    height: 550px;
+    width: 100%;
+}
+
+img#potd{
+    max-width: 30%;
+}
+
+/* CSS for Div */
+div#container{
+    width: 100%;
+    text-align: center;    
+}
+
+div#faq{
+    text-align: left;
+    color: rgb(245, 240, 236);
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+div#products{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+/* CSS for p */
+p{
+    color: rgb(245, 240, 236);
+    font-size: 1.25em;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 20px 0;
+}
+
+p#misc{
+    font-size: 1em;
+}
+
+p#product{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 30px;
+}
+
+p#description{
+    text-align: right;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+ /* CSS for other elements */
+#ty{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+em{
+    font-size: 1.5em;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: purple;
+}
+
+a:hover{
+    color: orange;
+}
+a:visited{
+    color: purple;
+}
+
+span{
+    color: #C1C3C9;
+    font-weight: bold
+}
+
+h3#music{
+    color: #293040;
+    font-family: "Lato", sans-serif;
+}
+
+video{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4%;
+    height: 600px;
+}
+
+button{
+    margin: 2% 1%;
+    background-color: #000;
+    color: #C1C3C9;
+    font-size: 1em;
+    padding: 1%;
+}
+
+#cart-items {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #C1C3C9;
+}
+
+.cart-item span {
+    display: inline-block;
+    min-width: 100px;
+}
+
+#total-price, #subtotal, #tax, #grand-total {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#cart-items p {
+    margin: 0;
+}
+
+
+/* CSS for Footer */
+footer{
+    font-size: 0.75em;
+    margin-top: 80px;
+}
+
+p.footer{
+    margin:5px;
+    color: #293040;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a{
+    text-decoration: none;
+}

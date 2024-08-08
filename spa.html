@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makuna Mirrors </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/m-high-resolution-logo-transparent.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:wght@300;400&family=Lustria&family=Marcellus&display=swap" rel="stylesheet">
+    <style>
+        .section { display: none; }
+        .active { display: block; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/full.png" id="logo" alt="Company Logo">
+        <div id="header-text">
+            <h1 id="title">Makuna Mirrors</h1>
+            <h3 id="slogan">Reflecting Your Style</h3>
+        </div>
+    </header>
+
+    <nav>
+        <div id="nav">
+            <a href="#home" id="icon" onclick="showSection('home')"><img src="img/new logo transparent.png" alt="Company icon" style="width: 85px;"></a>
+            <ul>
+                <li class="nav"><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li class="nav"><a href="#about" onclick="showSection('about')">About</a></li>
+                <li class="nav"><a href="#team" onclick="showSection('team')">Team</a></li>
+                <li class="nav"><a href="#specials" onclick="showSection('specials')">Specials</a></li>
+                <li class="nav"><a href="#training" onclick="showSection('training')">Training</a></li>
+                <li class="nav"><a href="#media" onclick="showSection('media')">Media</a></li>
+                <li class="nav"><a href="#faqs" onclick="showSection('faqs')">FAQs</a></li>
+                <li class="nav"><a href="#contact" onclick="showSection('contact')">Contact Us</a></li>
+                <li class="nav"><a href="#shop" onclick="showSection('shop')">Shop</a></li>
+                <li class="nav"><a href="#cart" onclick="showSection('cart')"><img src="img/cart.png" alt="Company icon" style="padding:0 0 0 15px; height: 45px;width: 60px;"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main">
+        <main>
+            <!-- Home Section -->
+            <div id="home" class="section active">
+                <h2>Welcome to Makuna Mirrors!</h2>
+                <p>At Makuna Mirrors, we believe in the transformative power of mirrors to enhance spaces, reflect personalities, and inspire creativity...</p>
+            </div>
+
+            <!-- Shop Section -->
+            <div id="shop" class="section">
+                <h2>Our Products</h2>
+                <div id="product-list"></div> <!-- Replaced with the provided section -->
+            </div>
+
+            <!-- About Section -->
+            <div id="about" class="section">
+                <h2>About Makuna Mirrors</h2>
+                <p>At Makuna, we are passionate about creating mirrors that go beyond mere reflection...</p>
+            </div>
+
+            <!-- FAQs Section -->
+            <div id="faqs" class="section">
+                <h2>Frequently Asked Questions</h2>
+                <p>Here are some common questions and answers about our products and services...</p>
+            </div>
+
+            <!-- Contact Section -->
+            <div id="contact" class="section">
+                <h2>Contact Us</h2>
+                <p>Have a question or want to learn more about our mirrors? Contact our friendly team...</p>
+            </div>
+
+            <!-- Training Section -->
+            <div id="training" class="section">
+                <h2>Training and Workshops</h2>
+                <p>We offer various training sessions and workshops to help you understand our products better...</p>
+            </div>
+
+            <!-- Specials Section -->
+            <div id="specials" class="section">
+                <h2>Special Offers</h2>
+                <p>Check out our current special offers and promotions on our range of mirrors...</p>
+            </div>
+
+            <!-- Team Section -->
+            <div id="team" class="section">
+                <h2>Meet the Team</h2>
+                <p>Get to know the passionate individuals behind Makuna Mirrors...</p>
+            </div>
+
+            <!-- Media Section -->
+            <div id="media" class="section">
+                <h2>Media Gallery</h2>
+                <p>Explore our media gallery to see our mirrors in action and in various settings...</p>
+            </div>
+
+            <!-- Cart Section -->
+            <div id="cart" class="section">
+                <h2>Your Shopping Cart</h2>
+                <div id="cart-items"></div> <!-- Cart items will be dynamically added here -->
+                <p id="subtotal">Subtotal: $0.00</p>
+                <p id="tax">Tax (13%): $0.00</p>
+                <p id="grand-total">Grand Total: $0.00</p>
+                <button onclick="checkout()">Checkout</button>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
